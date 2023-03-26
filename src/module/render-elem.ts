@@ -31,7 +31,7 @@ function renderAttachment(elem: SlateElement, children: VNode[] | null, editor: 
             : '2px solid transparent',
         borderRadius: '3px',
         padding: '0 3px',
-        backgroundColor: '#f1f1f1',
+        backgroundColor: 'var(--w-e-textarea-bg-color)',
         cursor: isDisabled ? 'pointer' : 'inherit',
       },
       on: {
