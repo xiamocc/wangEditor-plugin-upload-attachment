@@ -1,6 +1,6 @@
 {
   "name": "@xiamocc/plugin-upload-attachment",
-  "version": "0.0.1",
+  "version": "0.0.1 ",
   "description": "wangEditor 上传附件",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "attachment",
     "wangeditor"
   ],
-  "author": "github.com/wangfupeng1988",
+  "author": "github.com/xiamocc",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiamocc/wangEditor-plugin-upload-attachment/issues"
