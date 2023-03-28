@@ -1,10 +1,10 @@
 {
-  "name": "@wangeditor/plugin-upload-attachment",
-  "version": "1.1.0",
+  "name": "@xiamocc/plugin-upload-attachment",
+  "version": "0.0.1",
   "description": "wangEditor 上传附件",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor-plugin-upload-attachment.git"
+    "url": "git+https://github.com/xiamocc/wangEditor-plugin-upload-attachment.git"
   },
   "keywords": [
     "附件",
@@ -15,9 +15,9 @@
   "author": "github.com/wangfupeng1988",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangeditor-team/wangEditor-plugin-upload-attachment/issues"
+    "url": "https://github.com/xiamocc/wangEditor-plugin-upload-attachment/issues"
   },
-  "homepage": "https://github.com/wangeditor-team/wangEditor-plugin-upload-attachment#readme",
+  "homepage": "https://github.com/xiamocc/wangEditor-plugin-upload-attachment#readme",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/src/index.d.ts",
@@ -39,12 +39,6 @@
       "yarn lint",
       "yarn test"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "config": {
     "commitizen": {
